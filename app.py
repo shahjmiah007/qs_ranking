@@ -69,7 +69,7 @@ def academic_reputation_section():
     # st.divider()
     # st.write(f"You have to get {domestic_reputation_score:.2f}% surveying academician to select this institution domestically within top 10 Domestic University.")
     aca_rep_score_previous = aca_rep_score
-    st.divider()
+    # st.divider()
     # st.subheader("How to Achieve?")
     # st.write("1. Elevate the institution's research quality by fostering a culture of innovation and scholarly excellence.")
     # st.write("2. Strengthen academic partnerships by implementing a strategic and collaborative approach.")
@@ -94,7 +94,7 @@ def employer_reputation_section():
     # st.divider()
     # st.write(f"You have to get {domestic_emp_reputation_score:.2f}% surveying employer to select this institution internationally within top 10 best Domestic university for producing relevant graduates.")
     emp_rep_score_previous = emp_rep_score
-    st.divider()
+    # st.divider()
     # st.subheader("How to Achieve?")
     # st.write("1. Ensure the successful employment of the majority of undergraduate students upon completion of their first degree.")
     # st.write("2. Foster strong connections with employers to facilitate job placement for our graduates within familiar organizations.")
@@ -114,7 +114,7 @@ def faculty_student_ratio_section():
     estimated_fac_stu_ratio = (107.5-fac_stu_ratio_score)/2.5
     st.write(f"To get the score of {fac_stu_ratio_score}, the institution should have Faculty-Student Ratio of 1:{estimated_fac_stu_ratio:.2f}.")
     fac_stu_ratio_score_previous = fac_stu_ratio_score
-    st.divider()
+    # st.divider()
     # st.subheader("How to Achieve?")
     # st.write("1. Increase the availability of academic staff resources to enhance the student experience, including: Teaching, Supervision, Curriculum development, Pastoral support, ensuring a more enriching experience for students.")
     # st.write("2. Strive to achieve a more favorable ratio between the number of Full-Time Equivalent Faculty and Full-Time Equivalent students, promoting a more personalized and engaging learning environment.")
@@ -137,7 +137,7 @@ def international_faculty_ratio_section():
     estimated_int_fac_ratio = (103.64 - int_fac_ratio_score)/1.456
     st.write(f"To get the score of {int_fac_ratio_score}, the institution should have International Faculty Ratio of 1:{estimated_int_fac_ratio:.2f}.")
     int_fac_ratio_score_previous = int_fac_ratio_score
-    st.divider()
+    # st.divider()
     # st.subheader("How to Achieve?")
     # st.write("1. Enhance the proportion of international faculty members relative to the overall staff, fostering a more diverse and globally engaged academic environment.")
     # st.write("2. Ensure that this increase in international faculty contributes positively to research diversity and collaborative efforts, enriching the academic experience.")
@@ -153,7 +153,7 @@ def international_student_ratio_section():
     estimated_int_stu_ratio = (138.0251 - int_stu_ratio_score)/16.43
     st.write(f"To get the score of {int_stu_ratio_score}, the institution should have international Student Ratio of 1:{estimated_int_stu_ratio:.2f}.")
     int_stu_ratio_score_previous = int_stu_ratio_score
-    st.divider()
+    # st.divider()
     # st.subheader("How to Achieve?")
     # st.write("1. Elevate the proportion of international students relative to the overall student body, promoting greater networking opportunities, cultural exchanges, and a more diverse learning environment.")
     # st.write("2. Ensure that this increase in international student enrollment leads to tangible benefits such as enhanced networking, enriched cultural exchanges, and a more diverse and inclusive learning experience.")
