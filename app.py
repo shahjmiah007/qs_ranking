@@ -70,14 +70,14 @@ def academic_reputation_section():
     # st.write(f"You have to get {domestic_reputation_score:.2f}% surveying academician to select this institution domestically within top 10 Domestic University.")
     aca_rep_score_previous = aca_rep_score
     st.divider()
-    st.subheader("How to Achieve?")
-    st.write("1. Elevate the institution's research quality by fostering a culture of innovation and scholarly excellence.")
-    st.write("2. Strengthen academic partnerships by implementing a strategic and collaborative approach.")
-    st.write("3. Enhance the institution's strategic impact on the academic landscape.")
-    st.write("4. Foster a culture of institutional innovativeness, driving meaningful contributions to education and society.")
-    st.write("5. Aspire to rank among the Top 10 Domestic Institutions and the Top 30 International Institutions.")
-    st.write("6. Aim for inclusion among the Top 10 Business Schools, both domestically and internationally")
-    st.divider()
+    # st.subheader("How to Achieve?")
+    # st.write("1. Elevate the institution's research quality by fostering a culture of innovation and scholarly excellence.")
+    # st.write("2. Strengthen academic partnerships by implementing a strategic and collaborative approach.")
+    # st.write("3. Enhance the institution's strategic impact on the academic landscape.")
+    # st.write("4. Foster a culture of institutional innovativeness, driving meaningful contributions to education and society.")
+    # st.write("5. Aspire to rank among the Top 10 Domestic Institutions and the Top 30 International Institutions.")
+    # st.write("6. Aim for inclusion among the Top 10 Business Schools, both domestically and internationally")
+    # st.divider()
 
 
 
@@ -95,15 +95,15 @@ def employer_reputation_section():
     # st.write(f"You have to get {domestic_emp_reputation_score:.2f}% surveying employer to select this institution internationally within top 10 best Domestic university for producing relevant graduates.")
     emp_rep_score_previous = emp_rep_score
     st.divider()
-    st.subheader("How to Achieve?")
-    st.write("1. Ensure the successful employment of the majority of undergraduate students upon completion of their first degree.")
-    st.write("2. Foster strong connections with employers to facilitate job placement for our graduates within familiar organizations.")
-    st.write("3. Strive for a global reach by enabling graduates to secure positions at renowned domestic and international organizations.")
-    st.write("4. Cultivate specialized expertise among graduates in specific academic disciplines.")
-    st.write("5. Promote industry-specific specialization among graduates to meet the demands of their respective fields.")
-    st.write("6. Aspire to rank among the Top 10 Domestic Universities for producing relevant graduates.")
-    st.write("7. Aim for inclusion among the Top 30 International Universities known for producing graduates highly sought after by employers.")
-    st.divider()
+    # st.subheader("How to Achieve?")
+    # st.write("1. Ensure the successful employment of the majority of undergraduate students upon completion of their first degree.")
+    # st.write("2. Foster strong connections with employers to facilitate job placement for our graduates within familiar organizations.")
+    # st.write("3. Strive for a global reach by enabling graduates to secure positions at renowned domestic and international organizations.")
+    # st.write("4. Cultivate specialized expertise among graduates in specific academic disciplines.")
+    # st.write("5. Promote industry-specific specialization among graduates to meet the demands of their respective fields.")
+    # st.write("6. Aspire to rank among the Top 10 Domestic Universities for producing relevant graduates.")
+    # st.write("7. Aim for inclusion among the Top 30 International Universities known for producing graduates highly sought after by employers.")
+    # st.divider()
 
 
 def faculty_student_ratio_section():
@@ -115,10 +115,10 @@ def faculty_student_ratio_section():
     st.write(f"To get the score of {fac_stu_ratio_score}, the institution should have Faculty-Student Ratio of 1:{estimated_fac_stu_ratio:.2f}.")
     fac_stu_ratio_score_previous = fac_stu_ratio_score
     st.divider()
-    st.subheader("How to Achieve?")
-    st.write("1. Increase the availability of academic staff resources to enhance the student experience, including: Teaching, Supervision, Curriculum development, Pastoral support, ensuring a more enriching experience for students.")
-    st.write("2. Strive to achieve a more favorable ratio between the number of Full-Time Equivalent Faculty and Full-Time Equivalent students, promoting a more personalized and engaging learning environment.")
-    st.divider()
+    # st.subheader("How to Achieve?")
+    # st.write("1. Increase the availability of academic staff resources to enhance the student experience, including: Teaching, Supervision, Curriculum development, Pastoral support, ensuring a more enriching experience for students.")
+    # st.write("2. Strive to achieve a more favorable ratio between the number of Full-Time Equivalent Faculty and Full-Time Equivalent students, promoting a more personalized and engaging learning environment.")
+    # st.divider()
 
 
 
@@ -138,11 +138,11 @@ def international_faculty_ratio_section():
     st.write(f"To get the score of {int_fac_ratio_score}, the institution should have International Faculty Ratio of 1:{estimated_int_fac_ratio:.2f}.")
     int_fac_ratio_score_previous = int_fac_ratio_score
     st.divider()
-    st.subheader("How to Achieve?")
-    st.write("1. Enhance the proportion of international faculty members relative to the overall staff, fostering a more diverse and globally engaged academic environment.")
-    st.write("2. Ensure that this increase in international faculty contributes positively to research diversity and collaborative efforts, enriching the academic experience.")
-    st.write("3. Strive to increase the number of foreign-national faculty members who contribute to academic teaching, research, or both at the university for a minimum period of at least 3 months, as a proportion of the overall faculty staff.")
-    st.divider()
+    # st.subheader("How to Achieve?")
+    # st.write("1. Enhance the proportion of international faculty members relative to the overall staff, fostering a more diverse and globally engaged academic environment.")
+    # st.write("2. Ensure that this increase in international faculty contributes positively to research diversity and collaborative efforts, enriching the academic experience.")
+    # st.write("3. Strive to increase the number of foreign-national faculty members who contribute to academic teaching, research, or both at the university for a minimum period of at least 3 months, as a proportion of the overall faculty staff.")
+    # st.divider()
 
 
 def international_student_ratio_section():
@@ -154,11 +154,11 @@ def international_student_ratio_section():
     st.write(f"To get the score of {int_stu_ratio_score}, the institution should have international Student Ratio of 1:{estimated_int_stu_ratio:.2f}.")
     int_stu_ratio_score_previous = int_stu_ratio_score
     st.divider()
-    st.subheader("How to Achieve?")
-    st.write("1. Elevate the proportion of international students relative to the overall student body, promoting greater networking opportunities, cultural exchanges, and a more diverse learning environment.")
-    st.write("2. Ensure that this increase in international student enrollment leads to tangible benefits such as enhanced networking, enriched cultural exchanges, and a more diverse and inclusive learning experience.")
-    st.write("3. Strive to expand the total number of undergraduate and postgraduate international students, thereby contributing to a globally engaged and diverse campus community.")
-    st.divider()
+    # st.subheader("How to Achieve?")
+    # st.write("1. Elevate the proportion of international students relative to the overall student body, promoting greater networking opportunities, cultural exchanges, and a more diverse learning environment.")
+    # st.write("2. Ensure that this increase in international student enrollment leads to tangible benefits such as enhanced networking, enriched cultural exchanges, and a more diverse and inclusive learning experience.")
+    # st.write("3. Strive to expand the total number of undergraduate and postgraduate international students, thereby contributing to a globally engaged and diverse campus community.")
+    # st.divider()
 
 
 
